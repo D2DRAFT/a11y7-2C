@@ -184,3 +184,7 @@
 			padding-left: 10%;
 		}
 	}
+
+	.test{
+		display: inline;
+	}
