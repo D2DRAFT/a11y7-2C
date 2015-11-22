@@ -185,6 +185,55 @@
 		}
 	}
 
-	.test{
-		display: inline;
+	#about p{
+		margin-bottom: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 620px;
+		text-align: left;
+		line-height: 1.8;
+	}
+
+	#about p.conspicuous{
+		width: auto;
+		margin-bottom: 45px;
+		font-size: 200%;
+		text-align: center;
+		line-height: 1.6;
+	}
+
+	#inquiry p{
+		line-height: 1.8;
+	}
+
+	form{
+		margin-top: 90px;
+	}
+
+	label{
+		display: block;
+		margin-bottom: 10px;
+	}
+	label span {
+		padding: 3px 10px;
+		border-radius: 7px;
+		background-color: #000;
+		color: #fff;
+	}
+	input{
+		width: 330px;
+	}
+	input#address{
+		width: 650px;
+	}
+	input:focus{
+		box-shadow: 0px 0px 16px #8EA5DB;
+		border-color: #92929d;
+	}
+	.radio_btn label {
+		display: inline-block;
+	}
+
+	.radio_btn li {
+		margin-right: 50px;
 	}
