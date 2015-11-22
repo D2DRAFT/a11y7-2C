@@ -208,6 +208,7 @@ section:last-child {
 }
 
 form {
+  width: 650px;
   margin-top: 90px;
 }
 
