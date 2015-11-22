@@ -233,7 +233,33 @@
 	.radio_btn label {
 		display: inline-block;
 	}
-
 	.radio_btn li {
 		margin-right: 50px;
+	}
+	textarea {
+		width: 650px;
+		height: 130px;
+	}
+
+	aside ul{
+		text-align: center;
+	}
+
+	aside ul li{
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+
+	aside ul li a:hover,
+	aside ul li a:focus{
+		opacity: 0.7;
+	}
+
+	footer{
+		background-color: #000;
+		color: #fff;
+		text-align: center;
+		padding: 5px;
+		line-height: 1;
+		margin-top: 22px;
 	}
