@@ -134,10 +134,32 @@ form {
   text-align: left;
 }
 
-.btn {}
+	.btn {
+		clear: both;
+		width: auto;
+		display: block;
+		margin: 0 auto;
+		padding:10px 30px;
+		border-radius: 0px 8px 0px 8px;
+		color: #ffffff;
+		background: #000;
+		font-size: 22px;
+		text-decoration: none;
+		background-image: url(img/arrow_right.gif);
+		background-position: 90% 50%;
+		background-repeat: no-repeat;
+	}
 
-.btn:hover,
-.btn:focus {}
+	.btn:link, .btn:visited {
+		color: #fff;
+	}
+
+	.btn:hover, .btn:focus {
+		background-color: #4d4d4d;
+		background-image: url(img/arrow_right.gif);
+		background-position: 90% 50%;
+		background-repeat: no-repeat;
+	}
 
 .btn:focus {
   outline: 1px dotted #000000;
